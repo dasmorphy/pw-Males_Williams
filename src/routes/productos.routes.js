@@ -1,5 +1,7 @@
 import { Router } from "express";
 import { createProducts, getProducts, getProductsById, putProductsById, deleteProductsById } from "../controllers/productosController";
+import { verifyToken } from "../middlewares";
+
 
 const router = Router();
 
