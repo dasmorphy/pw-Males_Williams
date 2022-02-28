@@ -19,7 +19,7 @@ const userSchema = new Schema({
             type: Schema.Types.ObjectId
         }],
     }, {
-        timestamps: true, //añade hora y fecha de actualizacion o registro
+        timestamps: true, //añade hora y fecha de actualizacion y registro
         versionKey: false //oculta el tipo de version que se uso 
     }
 
